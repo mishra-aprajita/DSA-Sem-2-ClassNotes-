@@ -1,9 +1,6 @@
 # for i in range(10):
 #     print(i)
 
-
-
-
 x = 5
 n = 5
 
@@ -17,8 +14,6 @@ for i in range(n):
 
     for j in range(0, n):
         print(j)
-
-
 
 
 
