@@ -23,7 +23,7 @@ for i in range(n):
 
 
 # '''
-#  Write a function that returns the first element of an array.         how to solve this q. ,
+#  Write a function that returns the first element of an array?
 # '''
 
 # def array_first_return(a):
