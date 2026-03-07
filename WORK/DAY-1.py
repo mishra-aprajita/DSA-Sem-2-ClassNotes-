@@ -19,7 +19,6 @@ for i in range(n):
         print(j)
 
 
-
 # '''
 #  Write a function that returns the first element of an array?
 # '''
@@ -54,8 +53,6 @@ n =2
 
 10
 O(3)
-
-
 
 
 O(1)
