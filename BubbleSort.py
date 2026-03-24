@@ -7,3 +7,19 @@ def bubble_sort(arr):
 arr = [5, 3, 2, 4, 1]
 bubble_sort(arr)
 print(arr)
+
+# Insertion Sort (Good for Small Lists)
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        
+        while j >= 0 and arr[j] > key:
+            arr[j+1] = arr[j]
+            j -= 1
+        
+        arr[j+1] = key
+
+arr = [5, 3, 2, 4, 1]
+insertion_sort(arr)
+print(arr)
